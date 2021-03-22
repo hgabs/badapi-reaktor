@@ -1,0 +1,6 @@
+[submodule "badapi-backend"]
+	path = badapi-backend
+	url = https://github.com/hgabs/badapi-backend.git
+[submodule "badapi-frontend"]
+	path = badapi-frontend
+	url = https://github.com/hgabs/badapi-frontend.git
