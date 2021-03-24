@@ -15,4 +15,4 @@ This repository uses submodules for the backend and frontend.
 
 ## Prerequisites and Running the backend/frontend
 
-From the backend's folder, build the frontend by executing *npm run build:ui*. Once done it can be served with *npm run* and accessed on the localhost on port 8888. You may also run the frontend separately with *yarn start* and access it on localhost on port 3000.
+From the backend's folder, build the frontend by executing ***npm run build:ui***. Once done it can be served with ***npm run*** and accessed on the localhost on port 8888. You may also run the backend in development mode with ***npm run dev***, run the frontend separately with ***yarn start*** and access it on localhost on port 3000.
