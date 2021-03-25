@@ -13,6 +13,12 @@ This repository uses submodules for the backend and frontend.
 
 `git clone --recurse-submodules <repository_url>`
 
-## Prerequisites and Running the backend/frontend
+## Serving the Backend and Frontend
 
-From the backend's folder, build the frontend by executing ***npm run build:ui***. Once done it can be served with ***npm run*** and accessed on the localhost on port 8888. You may also run the backend in development mode with ***npm run dev***, run the frontend separately with ***yarn start*** and access it on localhost on port 3000.
+### Production
+
+The frontend should be built from the backend's directory using the **npm run build:ui** and served from the backend with **npm start**.
+
+### Development
+
+To serve the frontend independently, run it from its directory with **yarn start**. Run the backend from own directory with **npm run dev**. This will run the backend using nodemon and add the cors header that will allow accessing the api from the frontend.
